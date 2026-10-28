@@ -20,8 +20,8 @@
 <h2>4. 外部 AI サービス(あなたが API キーを設定した場合のみ)</h2>
 <p>本アプリの AI 機能は、あなた自身が設定画面に登録した API キーを使い、あなたの端末から各サービスへ直接通信します。キーを登録しない限り、これらの通信は行われません。</p>
 <ul>
-<li><b>Anthropic(Claude API)</b>: スピーキングの文字起こしテキストの評価、プロフィール(興味・言いたいこと)からのトピック生成、貼り付けたチャット会話の整理のために、該当するテキストを送信します。<a href="https://www.anthropic.com/privacy">プライバシーポリシー</a></li>
-<li><b>Google(Gemini API)</b>: 音声合成(TTS)のために、読み上げる文章のテキストを送信します。<a href="https://policies.google.com/privacy">プライバシーポリシー</a></li>
+<li><b>Anthropic(Claude API)</b>: スピーキングの文字起こしテキストの評価、プロフィール(興味・言いたいこと)からのトピック生成、貼り付けたチャット会話の整理、デイリーラジオの台本作成(選んだトピック名のみ)のために、該当するテキストを送信します。<a href="https://www.anthropic.com/privacy">プライバシーポリシー</a></li>
+<li><b>Google(Gemini API)</b>: 音声合成(TTS)のために、読み上げる文章(デイリーラジオの台本を含む)のテキストを送信します。<a href="https://policies.google.com/privacy">プライバシーポリシー</a></li>
 </ul>
 <p>送信したテキストは各サービスの規約・ポリシーに従って扱われます。個人情報や機密情報を含む文章は送信しないでください。</p>
 
@@ -47,7 +47,7 @@
 <li>The developer does not collect your personal data, audio, or learning data. There is no developer server and no analytics, advertising, or tracking SDK.</li>
 <li>Learning data, recordings, and your API keys (stored in the iOS Keychain) stay on your device. No iCloud sync. Deleting the app deletes them.</li>
 <li>Speech you record is transcribed with Apple's Speech framework, which may send audio to Apple servers (<a href="https://www.apple.com/legal/privacy/">Apple Privacy Policy</a>). Recordings are never sent to the developer, Anthropic, or Google.</li>
-<li>Only if you enter your own API key: text (your transcripts, profile notes, pasted chats) is sent from your device to Anthropic (Claude) for evaluation and topic generation, and sentence text is sent to Google (Gemini) for text-to-speech. See <a href="https://www.anthropic.com/privacy">Anthropic</a> and <a href="https://policies.google.com/privacy">Google</a> privacy policies.</li>
+<li>Only if you enter your own API key: text (your transcripts, profile notes, pasted chats, the topic for Daily Radio scripts) is sent from your device to Anthropic (Claude) for evaluation and topic generation, and sentence text is sent to Google (Gemini) for text-to-speech. See <a href="https://www.anthropic.com/privacy">Anthropic</a> and <a href="https://policies.google.com/privacy">Google</a> privacy policies.</li>
 <li>We do not sell or share your information. Contact: <a href="mailto:info@delax.co.jp">info@delax.co.jp</a></li>
 </ul>
 </body></html>
